@@ -32,7 +32,7 @@ const isMobileDevice = () => {
 // Function to redirect to /mobile if it's a mobile device
 const redirectIfMobile = () => {
   if (isMobileDevice()) {
-    window.location.href = "/nine/mobile";
+    window.location.href = "/mobile";
   }
 };
 
@@ -114,7 +114,7 @@ const handleScriptLoad = () => {
               <form method="dialog">
                 {/* if there is a button in form, it will close the modal */}
                 <button
-                  onClick={() => (window.location.href = '/nine/login')}
+                  onClick={() => (window.location.href = '/login')}
                   className="btn"
                 >
                   back to login

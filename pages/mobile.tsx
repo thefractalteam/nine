@@ -37,7 +37,7 @@ const MobileBlock: NextPage = () => {
           <Link href="/#"
             onClick={() => {
               localStorage.setItem("ignoremobile", "true");
-              window.location.href = "/nine/";
+              window.location.href = "/";
             }}
             style={{
               color: "#00BF8F",
@@ -81,7 +81,7 @@ const MobileBlock: NextPage = () => {
               <form method="dialog">
                 {/* if there is a button in form, it will close the modal */}
                 <button
-                  onClick={() => (window.location.href = "/nine/login")}
+                  onClick={() => (window.location.href = "/login")}
                   className="btn"
                 >
                   back to login

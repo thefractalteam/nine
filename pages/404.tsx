@@ -32,7 +32,7 @@ const Fourohfour: NextPage = () => {
 // Function to redirect to /mobile if it's a mobile device
 const redirectIfMobile = () => {
   if (isMobileDevice()) {
-    window.location.href = "/nine/mobile";
+    window.location.href = "/mobile";
   }
 };
 
