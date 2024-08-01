@@ -65,7 +65,7 @@ const Navbar = ({ username, profilePicture }) => {
             {!isLoggedIn ? (
               <button
                 className="btn btn-accent btn-sm h-full rounded-full"
-                onClick={() => window.location.assign("/nine/login")}
+                onClick={() => window.location.assign("/login")}
                 style={{ backgroundColor: "#00BF8F" }}
               >
                 log in
