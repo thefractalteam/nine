@@ -15,7 +15,7 @@ const Navbar = ({ username, profilePicture }) => {
   return (
     <div className="navbar bg-base-200 drop-shadow-2xl rounded-full mt-4">
       <div className="flex-1">
-        <Link href="/" className="btn btn-ghost text-xl font-black"><svg
+        <Link href="/" className="btn btn-ghost text-xl font-black rounded-full"><svg
     width="62px"
     height="24.2px"
     viewBox="0 0 99.172127 38.821781"
@@ -43,7 +43,7 @@ const Navbar = ({ username, profilePicture }) => {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1 gap-2">
           <li>
-            <Link href="/" className="font-bold">
+            <Link href="/" className="font-bold rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
